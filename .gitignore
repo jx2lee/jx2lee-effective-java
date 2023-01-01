@@ -48,6 +48,7 @@ hs_err_pid*
 .idea/**/dbnavigator.xml
 
 # Gradle
+.gradle/*
 .idea/**/gradle.xml
 .idea/**/libraries
 
@@ -76,6 +77,7 @@ cmake-build-*/
 # IntelliJ
 out/
 .idea/
+build/
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
