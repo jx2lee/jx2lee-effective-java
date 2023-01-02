@@ -1,5 +1,8 @@
 package com.tistory.jx2lee_dev.effectivejava.item_2_use_builder_when_many_parameter_in_constructor.pizza;
 
+import java.util.EnumSet;
+import java.util.Set;
+
 public class Calzone extends Pizza {
 
     final boolean sauceInside;
@@ -34,5 +37,9 @@ public class Calzone extends Pizza {
                 "sauceInside=" + sauceInside +
                 ", toppings=" + toppings +
                 '}';
+    }
+
+    public boolean isSauceInside() {
+        return sauceInside;
     }
 }
