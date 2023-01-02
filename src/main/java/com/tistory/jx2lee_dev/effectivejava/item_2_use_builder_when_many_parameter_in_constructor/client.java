@@ -16,6 +16,7 @@ public class client {
                 .addTopping(Pizza.Topping.ONION).build();
 
         System.out.println("nyPizza = " + nyPizza.toString());
+        System.out.println("nyPizza.toppings = " + nyPizza);
         System.out.println("calzone = " + calzone.toString());
     }
 }
